@@ -3,14 +3,14 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Goblin Huts",
+  "description": "Fill your world with vicious little goblins!",
   "authors": [
-    "Me!"
+    "Lincoln Hutchinson",
+	"Ian Wharton"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Between-Two-Suns/goblin-huts"
   },
 
   "license": "CC0-1.0",
@@ -19,11 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.betweentwosuns.goblinhuts.GoblinHuts"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
