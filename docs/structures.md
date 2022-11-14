@@ -4,4 +4,3 @@
 
 ## Goblin Camp
 
-## Goblin Fort

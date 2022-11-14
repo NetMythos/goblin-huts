@@ -2,3 +2,6 @@ site_name: Goblin Huts
 nav:
   - Home: index.md
   - About: about.md
+theme:
+  name: mkdocs
+  navigation_depth: 3
