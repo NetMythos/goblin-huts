@@ -23,6 +23,7 @@
     ]
   },
   "mixins": [
+	  "goblinhuts.mixins.json"
   ],
 
   "depends": {

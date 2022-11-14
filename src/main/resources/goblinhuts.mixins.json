@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"minVersion": 0.8,
+	"package": "com.betweentwosuns.goblinhuts.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [],
+	"client": [
+		"BrewingRecipeMixin"
+	],
+	"server": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
