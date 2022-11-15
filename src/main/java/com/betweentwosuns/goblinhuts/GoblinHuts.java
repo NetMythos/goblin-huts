@@ -2,6 +2,9 @@ package com.betweentwosuns.goblinhuts;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.Material;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -18,6 +21,7 @@ public class GoblinHuts implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger("goblinhuts");
 
 	public static final Item GOBLIN_EAR = new Item(new FabricItemSettings().group(ItemGroup.MISC));
+	public static final GoblinBannerette GOBLIN_BANNERETTE = new GoblinBannerette(FabricBlockSettings.of(Material.WOOL));
 
 	@Override
 	public void onInitialize() {
@@ -28,5 +32,8 @@ public class GoblinHuts implements ModInitializer {
 		LOGGER.info("Goblins chew and goblins bite!");
 
 		Registry.register(Registry.ITEM, new Identifier("goblinhuts", "goblin_ear"), GOBLIN_EAR);
+		
+		Registry.register(Registry.BLOCK, new Identifier("goblinhuts", "goblin_bannerette"), GOBLIN_BANNERETTE);
+		Registry.register(Registry.ITEM, new Identifier("goblinhuts", "goblin_bannerette"), new BlockItem(GOBLIN_BANNERETTE, new FabricItemSettings().group(ItemGroup.MISC)));
 	}
 }
