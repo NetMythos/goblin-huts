@@ -20,7 +20,10 @@
   "entrypoints": {
     "main": [
       "com.betweentwosuns.goblinhuts.GoblinHuts"
-    ]
+    ],
+	"client": [
+		"com.betweentwosuns.goblinhuts.GoblinHutsClient"
+	]
   },
   "mixins": [
 	  "goblinhuts.mixins.json"

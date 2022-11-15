@@ -1,6 +1,6 @@
 {
-	"parent": "block/cube_all",
+	"parent": "block/block",
 	"textures": {
-		"all": "goblinhuts:block/goblin_bannerette"
+		"1": "goblinhuts:block/goblin_bannerette"
 	}
 }
