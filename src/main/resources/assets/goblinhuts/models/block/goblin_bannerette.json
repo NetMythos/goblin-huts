@@ -1,6 +1,7 @@
 {
 	"parent": "block/block",
 	"textures": {
-		"1": "goblinhuts:block/goblin_bannerette"
+		"1": "goblinhuts:block/goblin_bannerette",
+		"particle": "goblinhuts:block/goblin_bannerette"
 	}
 }
