@@ -15,14 +15,6 @@
 		"facing=west": {
 			"y": 180,
 			"model": "goblinhuts:block/goblin_bannerette"
-		},
-		"facing=up": {
-			"y": 0,
-			"model": "goblinhuts:block/goblin_bannerette"
-		},
-		"facing=down": {
-			"y": 0,
-			"model": "goblinhuts:block/goblin_bannerette"
 		}
 	}
 }

@@ -4,7 +4,6 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.minecraft.block.entity.BlockEntityType;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -13,6 +12,7 @@ import software.bernie.geckolib3.GeckoLib;
 
 import com.betweentwosuns.goblinhuts.block.GoblinBanneretteBlock;
 import com.betweentwosuns.goblinhuts.block.tile.GoblinBanneretteTileEntity;
+import com.betweentwosuns.goblinhuts.items.GoblinBanneretteBlockItem;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -32,6 +32,7 @@ public class GoblinHuts implements ModInitializer {
 			new Identifier("goblinhuts", "goblin_bannerette_entity"),
 			FabricBlockEntityTypeBuilder.create(GoblinBanneretteTileEntity::new, GOBLIN_BANNERETTE).build()
 			);
+	public static final GoblinBanneretteBlockItem GOBLIN_BANNERETTE_BLOCK_ITEM = new GoblinBanneretteBlockItem(GOBLIN_BANNERETTE, new FabricItemSettings().group(ItemGroup.MISC));
 
 	@Override
 	public void onInitialize() {
@@ -46,6 +47,6 @@ public class GoblinHuts implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("goblinhuts", "goblin_ear"), GOBLIN_EAR);
 		
 		Registry.register(Registry.BLOCK, new Identifier("goblinhuts", "goblin_bannerette"), GOBLIN_BANNERETTE);
-		Registry.register(Registry.ITEM, new Identifier("goblinhuts", "goblin_bannerette"), new BlockItem(GOBLIN_BANNERETTE, new FabricItemSettings().group(ItemGroup.MISC)));
+		Registry.register(Registry.ITEM, new Identifier("goblinhuts", "goblin_bannerette"), GOBLIN_BANNERETTE_BLOCK_ITEM);
 	}
 }
