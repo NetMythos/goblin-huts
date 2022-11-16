@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" S ",
+		"IEI",
+		"SWS"
+	],
+	"key": {
+		"S": {
+			"item": "minecraft:stick"
+		},
+		"I": {
+			"item": "minecraft:iron_nugget"
+		},
+		"E": {
+			"item": "goblinhuts:goblin_ear"
+		},
+		"W": {
+			"tag": "minecraft:wool"
+		}
+	},
+	"result": {
+		"item": "goblinhuts:goblin_bannerette",
+		"count": 1
+	}
+}
