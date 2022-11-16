@@ -42,13 +42,13 @@ public class GoblinBanneretteBlock extends HorizontalFacingBlock implements Bloc
 		Direction dir = state.get(FACING);
 		switch(dir) {
 			case NORTH:
-				return Block.createCuboidShape(1f, 1f, 12f, 15f, 16f, 16f);
+				return Block.createCuboidShape(1f, 1f, 13f, 15f, 16f, 16f);
 			case SOUTH:
-				return Block.createCuboidShape(1f, 1f, -2f, 15f, 16f, 2f);
+				return Block.createCuboidShape(1f, 1f, 0f, 15f, 16f, 3f);
 			case EAST:
-				return Block.createCuboidShape(8f, 1f, 5f, 22f, 16f, 9f);
+				return Block.createCuboidShape(0f, 0f, 1f, 3f, 16f, 15f);
 			case WEST:
-				return Block.createCuboidShape(-6f, 1f, 5f, 8f, 16f, 9f);
+				return Block.createCuboidShape(13f, 1f, 1f, 16f, 16f, 15f);
 			default:
 				return VoxelShapes.fullCube();
 		}
