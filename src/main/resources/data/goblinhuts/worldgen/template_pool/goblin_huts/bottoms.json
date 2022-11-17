@@ -1,12 +1,12 @@
 {
-	"name": "goblinhuts:goblin_hut_small",
+	"name": "goblinhuts:goblin_hut/bottoms",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
 			"weight": 1,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
-				"location": "goblinhuts:goblin_hut_small_top",
+				"location": "goblinhuts:goblin_hut_small_bottom",
 				"projection": "rigid",
 				"processors": "minecraft:empty"
 			}

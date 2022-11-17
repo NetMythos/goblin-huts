@@ -4,7 +4,7 @@
 	"spawn_overrides": {},
 	"config": {
 		"start_pool": "goblinhuts:goblin_hut_small",
-		"size": 1
+		"size": 2
 	},
 	"adapt_noise": true
 }
