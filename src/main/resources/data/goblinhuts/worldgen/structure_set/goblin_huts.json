@@ -2,13 +2,17 @@
 	"structures": [
 		{
 			"structure": "goblinhuts:goblin_hut_small",
+			"weight": 3
+		},
+		{
+			"structure": "goblinhuts:goblin_hut_medium",
 			"weight": 1
 		}
 	],
 	"placement": {
 		"type": "minecraft:random_spread",
-		"spacing": 25,
-		"separation": 20,
+		"spacing": 10,
+		"separation": 5,
 		"salt": 172536
 	}
 }
