@@ -2,7 +2,7 @@
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
 		" S ",
-		"IEI",
+		"ILI",
 		"SWS"
 	],
 	"key": {
@@ -12,8 +12,8 @@
 		"I": {
 			"item": "minecraft:iron_nugget"
 		},
-		"E": {
-			"item": "goblinhuts:goblin_ear"
+		"L": {
+			"item": "minecraft:leather"
 		},
 		"W": {
 			"tag": "minecraft:wool"
