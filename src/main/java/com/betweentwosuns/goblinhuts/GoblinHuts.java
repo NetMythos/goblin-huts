@@ -24,8 +24,6 @@ public class GoblinHuts implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger("goblinhuts");
 
-	public static final Item GOBLIN_EAR = new Item(new FabricItemSettings().group(ItemGroup.MISC));
-
 	public static final GoblinBanneretteBlock GOBLIN_BANNERETTE = new GoblinBanneretteBlock();
 	public static final BlockEntityType<GoblinBanneretteTileEntity> GOBLIN_BANNERETTE_ENTITY = Registry.register(
 			Registry.BLOCK_ENTITY_TYPE,
@@ -44,8 +42,6 @@ public class GoblinHuts implements ModInitializer {
 
 		GeckoLib.initialize();
 
-		Registry.register(Registry.ITEM, new Identifier("goblinhuts", "goblin_ear"), GOBLIN_EAR);
-		
 		Registry.register(Registry.BLOCK, new Identifier("goblinhuts", "goblin_bannerette"), GOBLIN_BANNERETTE);
 		Registry.register(Registry.ITEM, new Identifier("goblinhuts", "goblin_bannerette"), GOBLIN_BANNERETTE_BLOCK_ITEM);
 	}
