@@ -1,12 +1,22 @@
 {
-	"name": "goblinhuts:goblin_hut/bottoms",
+	"name": "goblinhuts:goblin_hut_small",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
-			"weight": 1,
+			"weight": 6,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
-				"location": "goblinhuts:goblin_hut_small_bottom",
+				"location": "goblinhuts:goblin_hut_small_top",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "goblinhuts:goblin_hut_medium_top",
 				"projection": "rigid",
 				"processors": "minecraft:empty"
 			}
@@ -16,20 +26,11 @@
 			"weight": 1,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
-				"location": "goblinhuts:goblin_hut_medium_bottom",
-				"projection": "rigid",
-				"processors": "minecraft:empty"
-			}
-		},
-
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"location": "goblinhuts:goblin_hut_large_bottom",
+				"location": "goblinhuts:goblin_hut_large_top",
 				"projection": "rigid",
 				"processors": "minecraft:empty"
 			}
 		}
+
 	]
 }

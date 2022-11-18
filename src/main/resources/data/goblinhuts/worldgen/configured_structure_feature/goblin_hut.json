@@ -3,8 +3,8 @@
 	"biomes": "#minecraft:has_structure/mineshaft",
 	"spawn_overrides": {},
 	"config": {
-		"start_pool": "goblinhuts:goblin_hut_medium",
-		"size": 1
+		"start_pool": "goblinhuts:goblin_hut",
+		"size": 2
 	},
 	"adapt_noise": true
 }

@@ -1,11 +1,7 @@
 {
 	"structures": [
 		{
-			"structure": "goblinhuts:goblin_hut_small",
-			"weight": 3
-		},
-		{
-			"structure": "goblinhuts:goblin_hut_medium",
+			"structure": "goblinhuts:goblin_hut",
 			"weight": 1
 		}
 	],
